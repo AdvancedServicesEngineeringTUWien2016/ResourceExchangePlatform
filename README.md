@@ -20,3 +20,6 @@ Frontend:
 Sensors:
 * Don't really require configuration other than the backend address which can be passed in using the JVM system property 'baseUrl'
 * The system property 'participant' can be used to simulate offers and demands as another market participant
+
+## Startup
+Start the backend first, then the frontend. Starting sensor instances is optional. The frontend can be reached at your configured server address(localhost:80 on linux system or [virtualbox host address]:80 on windows systems).
